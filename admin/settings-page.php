@@ -1,5 +1,5 @@
 <?php
-admin/settings-page.php
+// admin/settings-page.php
 
 if (!defined('ABSPATH')) exit;
 

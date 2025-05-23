@@ -46,3 +46,25 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore build and IDE folders
+node_modules/
+*.log
+*.zip
+*.bak
+*.swp
+.vscode/
+.idea/
+
+# Ignore WordPress core and uploads (if working inside wp-content)
+wp-admin/
+wp-includes/
+wp-content/uploads/
+
+# Ignore sensitive data
+.env
+.env.local
